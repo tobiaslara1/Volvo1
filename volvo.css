@@ -5,3 +5,52 @@ body{
 #kep{
     width: 1440px;
 }
+
+#VOLVO_MODELLEK{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+#modell_szoveg{
+    margin-left: 50px;
+    font-family: system-ui;
+}
+
+#suv{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: system-ui;
+    font-weight: normal;
+}
+
+#suv_szoveg{
+    margin-left: 50px;
+    font-family: system-ui;
+}
+
+.kocsi_kartya{
+    position: relative;   
+  display: inline-block; 
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.kocsi_kartya img{
+    display: block;
+    width: 300px; 
+}
+
+.kocsi_kartya img:hover{
+    transform: scale(1.05);
+}
+
+.kocsi_kartya .kocsi_nev {
+  position: absolute;  
+  top: -40px;           
+  left: 25px;          
+}
+
+.kocsi_nev {
+    font-family: Impact;
+    font-size: 25px
+}
