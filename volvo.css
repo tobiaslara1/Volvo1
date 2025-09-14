@@ -28,25 +28,38 @@ body{
     font-family: system-ui;
 }
 
+.kocsi_kartyak{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
 .kocsi_kartya{
     position: relative;   
-  display: inline-block; 
-  margin-left: 25px;
-  margin-top: 50px;
+    display: block; 
 }
 
-.kocsi_kartya img{
+.kocsi_kartya_also{
+    position: relative;   
+    display: block; 
+}
+
+.kocsi_kartya img , .kocsi_kartya_also img{
     display: block;
-    width: 300px; 
+    width: 250px; 
+    transition: transform 0.3s;
 }
 
-.kocsi_kartya img:hover{
+
+.kocsi_kartya img:hover , .kocsi_kartya_also img:hover{
     transform: scale(1.05);
 }
 
-.kocsi_kartya .kocsi_nev {
+.kocsi_kartya .kocsi_nev , .kocsi_kartya_also .kocsi_nev {
   position: absolute;  
-  top: -40px;           
+  top: -35px;           
   left: 25px;          
 }
 
