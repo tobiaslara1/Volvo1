@@ -44,6 +44,7 @@ body{
 .kocsi_kartya_also{
     position: relative;   
     display: block; 
+    top: 15px;
 }
 
 .kocsi_kartya img , .kocsi_kartya_also img{
