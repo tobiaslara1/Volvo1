@@ -51,6 +51,7 @@ body{
     display: block;
     width: 250px; 
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 
@@ -67,4 +68,10 @@ body{
 .kocsi_nev {
     font-family: Impact;
     font-size: 25px
+}
+
+
+
+#xc40_fokep{
+    width: 100%;
 }
