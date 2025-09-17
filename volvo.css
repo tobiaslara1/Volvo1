@@ -142,3 +142,115 @@ nav {
 #xc40_fokep{
     width: 100%;
 }
+
+#fokep{
+    position: relative;
+}
+
+#XC40_h{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+#XC60_h{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#xc60_hh{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#VOLVO_xc{
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.volvo_szoveg{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+}
+
+.container_container{
+    position: relative;
+}
+
+.container {
+    display: flex;                
+    justify-content: space-between;
+    gap: 100px;                  
+    max-width: 1200px;         
+    margin-top: 50px;
+    margin: auto;             
+    padding-top: 50px;
+    }
+
+.text_box {
+    flex: 1;                   
+    font-family: Arial, sans-serif;
+    padding-top: 5%;
+}
+
+.image_box {
+    flex: 1;                   
+    display: flex;
+}
+
+.image_box img {
+    width: 100%;                
+    height: auto;
+    border-radius: 10px;        
+}
+
+.video_container{
+    position: relative;
+}
+
+.video_container video{
+    padding-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#xc60_video_text_container{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 29px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+#nagy_napok_h{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#xc60_kepek_container img{
+    width: 30%;
+}
+
+#xc60_h_video_container{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 29px;
+    padding-bottom: 30px;
+}
