@@ -2,6 +2,7 @@ body{
     background-color: azure;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 nav {
@@ -288,4 +289,28 @@ h2{
     left: 35%;
     text-align: center;
     font-size: 20px;
+}
+
+footer {
+    background-color: darkgrey;  
+    text-align: center;          
+    padding: 20px 0;             
+    margin-top: 50px; 
+    height: 70px;
+}
+
+footer a {
+    color: white;               
+    text-decoration: none;       
+    font-size: 18px;             
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s;      
+}
+
+footer a:hover {
+    color: rgb(43, 43, 43);                
+}
+
+.biztonsag_bevezeto{
+    text-align: center;
 }
