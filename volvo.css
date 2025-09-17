@@ -88,6 +88,7 @@ nav {
     margin-left: 50px;
     font-family: system-ui;
     font-weight: normal;
+    text-align: left;
 }
 
 #suv_szoveg{
@@ -106,12 +107,8 @@ nav {
 .kocsi_kartya{
     position: relative;   
     display: block; 
-}
-
-.kocsi_kartya_also{
-    position: relative;   
-    display: block; 
-    top: 15px;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
 }
 
 .kocsi_kartya img , .kocsi_kartya_also img{
@@ -122,7 +119,7 @@ nav {
 }
 
 
-.kocsi_kartya img:hover , .kocsi_kartya_also img:hover{
+.kocsi_kartya:hover , .kocsi_kartya_also:hover{
     transform: scale(1.05);
 }
 
@@ -253,4 +250,42 @@ h2{
     margin-left: 5%;
     font-size: 29px;
     padding-bottom: 30px;
+}
+
+#xc40_recharge_fokep{
+    width: 100%;
+}
+
+#XC40_recharge_h{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#recharge_hh{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.xc40_ules img{
+    margin-left: 5%;
+    width: 90%;
+}
+
+.xc40_ules{
+    position: relative;
+}
+
+.xc40_ules_szoveg{
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    font-size: 20px;
 }
