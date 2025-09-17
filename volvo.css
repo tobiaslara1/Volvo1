@@ -389,3 +389,63 @@ footer a {
 footer a:hover {
     color: #ccc;
 }
+
+.tortenet_container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    flex-wrap: wrap; 
+
+}
+
+.tortenet_h_box{
+    flex: 1;
+    max-width: 1000px;
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.tortenet_p_box{
+    flex: 1;
+    max-width: 1200px;
+    margin-right: 5%;
+    margin-top: 1%;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+#tortenet_kep{
+    width: 100%;
+    height: 80%;
+}
+    
+#tortenet_volvo_car_h{
+    text-align: center;
+}
+
+.tortenet_volvo_car_p{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.tortenet_img_box img{
+    width: 100%;
+}
+
+.tortenet_img_box{
+    flex: 1;
+    max-width: 1000px;
+    margin-right: 5%;
+}
+
+.tortenet_h_p_box{
+    flex: 1;
+    max-width: 1000px;
+    padding-top: 5%;
+    margin-left: 5%;
+}
