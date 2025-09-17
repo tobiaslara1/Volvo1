@@ -1,8 +1,9 @@
-body{
-    background-color: azure;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+body {
+    background-color: #f4f6f8; 
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    line-height: 1.6;
 }
 
 nav {
@@ -10,61 +11,46 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: darkgrey;
+    background-color: #292929;
     z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .nav-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0 20px;
-    position: relative; 
 }
 
 .logo {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
     font-weight: 700;
-    font-size: 1.5rem;
-    margin-right: auto; 
+    color: #ffffff;
 }
 
 .menu {
-    list-style: none;
     display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.menu li {
-    margin-left: 25px;
-}
-
-.menu li:first-child {
-    margin-left: 0;
+    gap: 25px;
 }
 
 .menu li a {
-    display: block;
-    padding: 10px 15px;
-    color: white;
     text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
     
 }
 
 .menu li a:hover {
-    background-color: #7a7a7a;
-}
-
-.kep-container {
-    position: relative;  
-    width: 100%;
-    max-height: 525px;  
-    overflow: hidden;   
+    background-color: #555;
 }
 
 #kep {
@@ -72,6 +58,66 @@ nav {
     height: auto;
     display: block;
     object-fit: cover;
+    margin-top: 50px; 
+    border-bottom: 2px solid #ccc;
+}
+
+h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1c1c1c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.biztonsag_bevezeto {
+    text-align: center;
+    font-size: 18px;
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    flex-wrap: wrap; 
+}
+
+.image_box1 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image_box1 video,
+.image_box1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.text_box1 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.text_box1 p {
+    font-size: 16px;
+    color: #34495e;
 }
 
 #VOLVO_MODELLEK{
@@ -96,6 +142,41 @@ nav {
     margin-left: 50px;
     font-family: system-ui;
 }
+
+/* 
+en ezt hasznalnam
+.kocsi_kartyak {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.kocsi_kartya {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.kocsi_kartya img {
+    width: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.kocsi_kartya:hover img {
+    transform: scale(1.05);
+}
+
+.kocsi_nev {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+*/
+
 
 .kocsi_kartyak{
     display: flex;
@@ -292,25 +373,19 @@ h2{
 }
 
 footer {
-    background-color: darkgrey;  
-    text-align: center;          
-    padding: 20px 0;             
-    margin-top: 50px; 
-    height: 70px;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
 }
 
 footer a {
-    color: white;               
-    text-decoration: none;       
-    font-size: 18px;             
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: color 0.3s;      
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 footer a:hover {
-    color: rgb(43, 43, 43);                
-}
-
-.biztonsag_bevezeto{
-    text-align: center;
+    color: #ccc;
 }
